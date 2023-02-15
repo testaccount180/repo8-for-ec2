@@ -8,3 +8,6 @@ hooks:
     - location: scripts/install-dependencies
       timeout: 300
       runas: root
+    - location: scripts/start-server
+      timeout: 300
+      runas: root
